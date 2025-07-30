@@ -1,0 +1,73 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 17% 7%;
+    --foreground: 220 13% 91%;
+
+    --card: 220 17% 9%;
+    --card-foreground: 220 13% 91%;
+
+    --popover: 220 17% 9%;
+    --popover-foreground: 220 13% 91%;
+
+    --primary: 266 83% 58%;
+    --primary-foreground: 220 13% 91%;
+
+    --secondary: 220 17% 15%;
+    --secondary-foreground: 220 13% 91%;
+
+    --muted: 220 17% 15%;
+    --muted-foreground: 220 13% 65%;
+
+    --accent: 220 17% 15%;
+    --accent-foreground: 220 13% 91%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 13% 91%;
+
+    --border: 220 17% 15%;
+    --input: 220 17% 15%;
+    --ring: 266 83% 58%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 220 17% 6%;
+    --sidebar-foreground: 220 13% 91%;
+    --sidebar-primary: 266 83% 58%;
+    --sidebar-primary-foreground: 220 13% 91%;
+    --sidebar-accent: 220 17% 12%;
+    --sidebar-accent-foreground: 220 13% 91%;
+    --sidebar-border: 220 17% 15%;
+    --sidebar-ring: 266 83% 58%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(220 17% 9%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(220 17% 15%);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(220 17% 20%);
+}
