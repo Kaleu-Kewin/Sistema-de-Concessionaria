@@ -1,8 +1,8 @@
 # 🚗 Sistema de Concessionária
 Sistema completo de gerenciamento veículos desenvolvido com React + TypeScript no frontend e Flask + SQLAlchemy no backend.
+Projeto em andamento.
 
 ## 📋 Descrição
-
 O sistema é uma aplicação web Full-Stack para gerenciamento de veículos, incluindo controle de clientes, usuários, vendas e permissões. O sistema oferece uma interface moderna e responsiva com funcionalidades completas de CRUD.
 
 ## 📸 Demonstrações Visuais - Sistema ainda incompleto.
